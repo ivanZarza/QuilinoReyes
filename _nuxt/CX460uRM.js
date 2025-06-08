@@ -1,0 +1,1 @@
+import{P as s,i as a}from"./BEC4_nOn.js";import{_ as t,c as o,a as r,b as c,j as m,o as d}from"./CjJGRmLC.js";const _={class:"moda-page"},i={__name:"modamujer",setup(n){return(p,e)=>(d(),o("div",_,[e[0]||(e[0]=r("h1",{class:"corbatas-title"},"Moda Mujer",-1)),c(s,{items:m(a)},null,8,["items"])]))}},f=t(i,[["__scopeId","data-v-f1fd8759"]]);export{f as default};
