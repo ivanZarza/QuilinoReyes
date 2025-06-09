@@ -10,15 +10,15 @@
     </div>
     <div v-if="showGallery" class="modal-overlay" @click.self="closeGallery">
       <div class="modal-gallery">
-        <!-- <button class="close-btn" @click="closeGallery">&times;</button> -->
+        <button class="close-btn" @click="closeGallery">&times;</button>
         <div class="gallery-main">
           <img :src="fotos[galleryIndex]" :alt="nombre" />
         </div>
         <div class="gallery-thumbs">
           <img v-for="(foto, idx) in fotos" :key="idx" :src="foto" :alt="nombre + ' miniatura ' + idx" :class="{active: idx === galleryIndex}" @click.stop="galleryIndex = idx" />
         </div>
-        <!-- <button class="nav-btn left" @click.stop="prevImage">&#8592;</button>
-        <button class="nav-btn right" @click.stop="nextImage">&#8594;</button> -->
+        <button class="nav-btn left" @click.stop="prevImage">&#8592;</button>
+        <button class="nav-btn right" @click.stop="nextImage">&#8594;</button>
       </div>
     </div>
   </div>
@@ -133,17 +133,28 @@ function nextImage() {
 }
 .close-btn {
   position: absolute;
-  top: 12px; /* Entre los dos recuadros */
-  right: 18px; /* Arriba a la derecha */
+  top: 12px;
+  right: 18px;
   left: auto;
-  background: none;
-  border: none;
+  background: #fff;
+  border: 2px solid goldenrod;
   color: goldenrod;
   font-size: 2.2rem;
   cursor: pointer;
   z-index: 2;
-  /* Ajuste visual para que quede entre el borde exterior y el recuadro de la imagen */
-  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+  padding: 0;
+}
+.close-btn:hover {
+  background: goldenrod;
+  color: #fff;
 }
 .gallery-main {
   width: 60vw;
@@ -153,15 +164,20 @@ function nextImage() {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.2rem;
+  /* Asegura que el contenedor no tenga padding extra */
+  padding: 0;
+  overflow: hidden;
 }
 .gallery-main img {
   width: 100%;
-  height: auto;
-  max-height: 55vh;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 12px;
   border: 2px solid goldenrod;
   background: #111;
-  object-fit: contain;
+  object-fit: cover; /* Cambiado a cover para llenar el contenedor */
+  display: block;
 }
 .gallery-thumbs {
   display: flex;
@@ -185,18 +201,27 @@ function nextImage() {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(24,24,24,0.8);
+  background: #fff;
   border: 2px solid goldenrod;
   color: goldenrod;
   font-size: 2rem;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  border-radius: 8px;
+  width: 54px;
+  height: 40px; /* ↓ altura reducida */
   cursor: pointer;
   z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+  padding: 0, 0, 5px, 0;
+  line-height: 1;
+  padding-bottom: 12px;
+}
+.nav-btn:hover {
+  background: goldenrod;
+  color: #fff;
 }
 .nav-btn.left {
   left: 10px;

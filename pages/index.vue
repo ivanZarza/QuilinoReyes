@@ -18,9 +18,6 @@
           Os presento mi primera colección en la cual fusiono El Arte, La Cultura y El Flamenco. Tres características que
           me identifican por completo.
         </p>
-        <button class="btn-gold" @click="$router.push('/corbatashombre')">Corbatas Hombre</button>
-        <button class="btn-gold" @click="$router.push('/modahombre')">Moda Hombre</button>
-        <button class="btn-gold" @click="$router.push('/modamujer')">Moda Mujer</button>
       </div>
     </div>
     <div class="divider"></div>
@@ -79,7 +76,6 @@
   margin-bottom: 2rem;
   text-align: center; 
   box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2);
-  border-bottom: 3px solid goldenrod;
   font-family: 'Montserrat', Arial, sans-serif;
 }
 .text-center {
@@ -89,31 +85,6 @@
   color: goldenrod;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
-}
-.btn-gold {
-  margin-top: 1.5rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
-  background: goldenrod;
-  color: #181818;
-  border: none;
-  border-radius: 25px;
-  padding: 0.7rem 2.2rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 2px 8px 0 rgba(218,165,32,0.15);
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-  letter-spacing: 1px;
-  display: inline-block;
-}
-.btn-gold:last-child {
-  margin-right: 0;
-}
-.btn-gold:hover {
-  background: #fff;
-  color: goldenrod;
-  box-shadow: 0 4px 16px 0 rgba(218,165,32,0.25);
 }
 .divider {
   width: 100%;
@@ -185,13 +156,7 @@
   .text-center {
     font-size: 1.5rem;
   }
-  .btn-gold {
-    display: block;
-    width: 90%;
-    margin: 1rem auto 0.5rem auto;
-  }
 }
-
 @media (max-width: 600px) {
   .presentacion {
     width: 100%;
@@ -212,12 +177,6 @@
   .footer-texto {
     font-size: 0.9rem;
     padding: 10px;
-  }
-  .btn-gold {
-    width: 100%;
-    font-size: 1rem;
-    padding: 0.7rem 0;
-    margin: 0.7rem 0 0 0;
   }
 }
 </style>
