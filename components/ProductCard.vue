@@ -136,9 +136,9 @@ function nextImage() {
   top: 12px;
   right: 18px;
   left: auto;
-  background: #fff;
-  border: 2px solid goldenrod;
-  color: goldenrod;
+  background: goldenrod;         /* Fondo dorado por defecto */
+  border: 2px solid #fff;        /* Borde blanco por defecto */
+  color: #fff;                   /* X blanca por defecto */
   font-size: 2.2rem;
   cursor: pointer;
   z-index: 2;
@@ -149,12 +149,13 @@ function nextImage() {
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, border 0.2s;
   padding: 0;
 }
 .close-btn:hover {
-  background: goldenrod;
-  color: #fff;
+  background: #fff;              /* Fondo blanco al hacer hover */
+  color: goldenrod;              /* X dorada al hacer hover */
+  border: 2px solid goldenrod;   /* Borde dorado al hacer hover */
 }
 .gallery-main {
   width: 60vw;
@@ -201,27 +202,28 @@ function nextImage() {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #fff;
-  border: 2px solid goldenrod;
-  color: goldenrod;
+  background: goldenrod;         /* Fondo dorado por defecto */
+  border: 2px solid #fff;        /* Borde blanco por defecto */
+  color: #fff;                   /* Flecha blanca por defecto */
   font-size: 2rem;
   border-radius: 8px;
   width: 54px;
-  height: 40px; /* ↓ altura reducida */
+  height: 40px;
   cursor: pointer;
   z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
-  transition: background 0.2s, color 0.2s;
-  padding: 0, 0, 5px, 0;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  padding: 0;
   line-height: 1;
   padding-bottom: 12px;
 }
 .nav-btn:hover {
-  background: goldenrod;
-  color: #fff;
+  background: #fff;              /* Fondo blanco al hacer hover */
+  color: goldenrod;              /* Flecha dorada al hacer hover */
+  border: 2px solid goldenrod;   /* Borde dorado al hacer hover */
 }
 .nav-btn.left {
   left: 10px;
