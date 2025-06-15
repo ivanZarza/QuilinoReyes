@@ -1,13 +1,15 @@
 <script setup>
 import ProductList from '~/components/ProductList.vue'
-import { items } from '~/public/corbatas/temporada1/data.js'
+import { items } from '~/public/corbatas/de un sueño una realidad/data.js'
+import { items2 } from '~/public/corbatas/sastiplen tali/data.js'
+
 import { ref } from 'vue'
 
-const primaveraVerano = [...items].reverse(); // Orden invertido
-const otonoInvierno = [...items]; // Orden original
+const primaveraVerano = [...items]; // Orden invertido
+const otonoInvierno = [...items2]; // Orden original
 
 const temporadas = [
-  { nombre: 'Primavera-Verano', items: primaveraVerano },
+  { nombre: 'de un sueño una realidad', items: primaveraVerano },
   { nombre: 'Otoño-Invierno', items: otonoInvierno }
 ]
 const temporadaSeleccionada = ref(temporadas[0])
