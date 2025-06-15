@@ -1,7 +1,7 @@
 <template>
   <div class="product-card">
     <div class="product-image" @click.stop="openGallery">
-      <img :src="fotos[0]" :alt="nombre" />
+      <img :src="`${imgBase}${fotos[0]}`" :alt="nombre" />
     </div>
     <div class="product-info">
       <h2>{{ nombre }}</h2>
@@ -12,10 +12,17 @@
       <div class="modal-gallery">
         <button class="close-btn" @click="closeGallery">&times;</button>
         <div class="gallery-main">
-          <img :src="fotos[galleryIndex]" :alt="nombre" />
+          <img :src="`${imgBase}${fotos[galleryIndex]}`" :alt="nombre" />
         </div>
         <div class="gallery-thumbs">
-          <img v-for="(foto, idx) in fotos" :key="idx" :src="foto" :alt="nombre + ' miniatura ' + idx" :class="{active: idx === galleryIndex}" @click.stop="galleryIndex = idx" />
+          <img
+            v-for="(foto, idx) in fotos"
+            :key="idx"
+            :src="`${imgBase}${foto}`"
+            :alt="nombre + ' miniatura ' + idx"
+            :class="{active: idx === galleryIndex}"
+            @click.stop="galleryIndex = idx"
+          />
         </div>
         <button class="nav-btn left" @click.stop="prevImage">&#8592;</button>
         <button class="nav-btn right" @click.stop="nextImage">&#8594;</button>
@@ -30,7 +37,11 @@ const props = defineProps({
   nombre: String,
   descripcion: String,
   precio: String,
-  fotos: Array
+  fotos: Array,
+  imgBase: {
+    type: String,
+    default: ''
+  }
 })
 const showGallery = ref(false)
 const galleryIndex = ref(0)
@@ -136,9 +147,9 @@ function nextImage() {
   top: 12px;
   right: 18px;
   left: auto;
-  background: goldenrod;         /* Fondo dorado por defecto */
-  border: 2px solid #fff;        /* Borde blanco por defecto */
-  color: #fff;                   /* X blanca por defecto */
+  background: goldenrod;         
+  border: 2px solid #fff;        
+  color: #fff;               
   font-size: 2.2rem;
   cursor: pointer;
   z-index: 2;
@@ -153,9 +164,9 @@ function nextImage() {
   padding: 0;
 }
 .close-btn:hover {
-  background: #fff;              /* Fondo blanco al hacer hover */
-  color: goldenrod;              /* X dorada al hacer hover */
-  border: 2px solid goldenrod;   /* Borde dorado al hacer hover */
+  background: #fff;                
+  color: goldenrod;              
+  border: 2px solid goldenrod;    
 }
 .gallery-main {
   width: 60vw;

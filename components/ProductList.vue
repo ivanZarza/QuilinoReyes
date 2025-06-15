@@ -7,6 +7,7 @@
       :descripcion="item.descripcion"
       :precio="item.precio"
       :fotos="item.fotos"
+      :imgBase="imgBase"
     />
   </div>
 </template>
@@ -18,6 +19,10 @@ defineProps({
   items: {
     type: Array,
     required: true
+  },
+  imgBase: {
+    type: String,
+    default: ''
   }
 })
 </script>

@@ -2,17 +2,17 @@
 import ProductList from '~/components/ProductList.vue'
 import { items } from '~/public/corbatas/deUnSueñoUnaRealidad/data.js'
 import { items2 } from '~/public/corbatas/sastipenTali/data.js'
+import { ref, computed } from 'vue'
 
-import { ref } from 'vue'
-
-const primaveraVerano = [...items]; // Orden invertido
-const otonoInvierno = [...items2]; // Orden original
+const primaveraVerano = [...items]
+const otonoInvierno = [...items2]
 
 const temporadas = [
-  { nombre: 'De un sueño una realidad', items: primaveraVerano },
-  { nombre: 'Sastiplen Tali', items: otonoInvierno }
+  { nombre: 'De un sueño una realidad', items: primaveraVerano, imgBase: 'de un sueño una realidad/' },
+  { nombre: 'Sastiplen Tali', items: otonoInvierno, imgBase: 'sastipenTali/' }
 ]
 const temporadaSeleccionada = ref(temporadas[0])
+const imgBase = computed(() => temporadaSeleccionada.value.imgBase)
 </script>
 <template>
   <div>
@@ -28,7 +28,7 @@ const temporadaSeleccionada = ref(temporadas[0])
       </button>
     </div>
     <div class="product-list-wrapper">
-      <ProductList :items="temporadaSeleccionada.items" />
+      <ProductList :items="temporadaSeleccionada.items" :imgBase="imgBase" />
     </div>
   </div>
 </template>
