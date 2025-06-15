@@ -1,0 +1,1 @@
+import{P as s,i as a}from"./Gj25vres.js";import{_ as o,c as t,a as r,b as m,j as c,o as d}from"./7kpYinle.js";const _={class:"moda-page"},i={__name:"modahombre",setup(n){return(p,e)=>(d(),t("div",_,[e[0]||(e[0]=r("h1",{class:"corbatas-title"},"Moda Hombre",-1)),m(s,{items:c(a)},null,8,["items"])]))}},b=o(i,[["__scopeId","data-v-69b77de4"]]);export{b as default};
