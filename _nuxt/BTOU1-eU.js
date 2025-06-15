@@ -1,1 +1,0 @@
-import{s as o,c as r,a as e,t as s,j as n,o as p}from"./DL308lSq.js";const d={__name:"[temporada]",setup(l){const t=o().params.temporada;return(m,a)=>(p(),r("div",null,[e("h2",null,"Temporada: "+s(n(t)),1),a[0]||(a[0]=e("p",null,"Aquí puedes mostrar las corbatas de la temporada seleccionada.",-1))]))}};export{d as default};
