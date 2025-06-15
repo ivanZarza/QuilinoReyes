@@ -5,18 +5,24 @@
   <div>
     <div class="presentacion">
       <div class="personal-container">
-        <img src="/personal.jpg" class="personal" alt="Imagen de presentación" />
+        <img
+          src="/personal.jpg"
+          class="personal"
+          alt="Imagen de presentación"
+        />
       </div>
       <div class="texto">
         <h1 class="text-center">De un Sueño a una Realidad.</h1>
         <p>
-          Siempre soñé con pertenecer al mundo de la moda, con tener un nombre que la gente conociese, con crear una marca
-          propia y dar a demostrar a la gente lo que puedo llegar a hacer con mi imaginación.<br>
-          Hoy, todo ese sueño se ha convertido en una realidad, por primera vez puedo mostrar al mundo que gracias a mucho
-          esfuerzo, constancia y perseverancia los sueños se hacen realidad y yo estoy cumpliendo el mío.
-          Desde aquí ánimo a todas esas personas que tienen sueños que luchen por conseguirlos.<br>
-          Os presento mi primera colección en la cual fusiono El Arte, La Cultura y El Flamenco. Tres características que
-          me identifican por completo.
+          Siempre soñé con pertenecer al mundo de la moda, con tener un nombre
+          que la gente conociese, con crear una marca propia y dar a demostrar a
+          la gente lo que puedo llegar a hacer con mi imaginación. <br> <br> Hoy, todo ese
+          sueño se ha convertido en una realidad, por primera vez puedo mostrar
+          al mundo que gracias a mucho esfuerzo, constancia y perseverancia los
+          sueños se hacen realidad y yo estoy cumpliendo el mío. <br> <br> Desde aquí
+          ánimo a todas esas personas que tienen sueños que luchen por
+          conseguirlos. El Arte, La Cultura y El Flamenco. Tres características
+          que me identifican por completo.
         </p>
       </div>
     </div>
@@ -25,9 +31,22 @@
       <div class="footer">
         <div class="footer-texto">
           <h1>Formas de contacto</h1>
-          <p><span class="icon-mail"></span> Correo: <a href="mailto:motesreyaquilino@gmail.com">motesreyaquilino@gmail.com</a></p>
-          <p><span class="icon-phone"></span> Teléfono: <a href="tel:600815960">600 815 960</a></p>
-          <p><span class="icon-ig"></span> Instagram: <a href="https://instagram.com/Quilinoreyes_moda_" target="_blank">Quilinoreyes_moda_</a></p>
+          <p>
+            <span class="icon-mail"></span> Correo:
+            <a href="mailto:motesreyaquilino@gmail.com"
+              >motesreyaquilino@gmail.com</a
+            >
+          </p>
+          <p>
+            <span class="icon-phone"></span> Teléfono:
+            <a href="tel:600815960">600 815 960</a>
+          </p>
+          <p>
+            <span class="icon-ig"></span> Instagram:
+            <a href="https://instagram.com/Quilinoreyes_moda_" target="_blank"
+              >Quilinoreyes_moda_</a
+            >
+          </p>
           <h3>Se hacen envíos a toda España.</h3>
         </div>
       </div>
@@ -36,7 +55,7 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap");
 
 .presentacion {
   width: 90%;
@@ -59,31 +78,31 @@
   height: auto;
   object-fit: cover;
   border: 3px solid goldenrod;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.5);
   background-color: black;
   display: block;
 }
 .personal:hover {
-  box-shadow: 0 8px 32px 0 rgba(218,165,32,0.3);
+  box-shadow: 0 8px 32px 0 rgba(218, 165, 32, 0.3);
 }
 .texto {
   width: 100%;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0, 0, 0, 0.85);
   border-radius: 18px;
   padding: 2.5rem 2rem 2rem 2rem;
   color: #fff;
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  text-align: center; 
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2);
-  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", Arial, sans-serif;
 }
 .text-center {
   text-align: center;
   text-decoration: underline 2px solid goldenrod;
   font-size: 2.7rem;
   color: goldenrod;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 1rem;
 }
 .divider {
@@ -116,7 +135,7 @@
   background-color: #000;
   gap: 10px;
   opacity: 0.95;
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .footer-texto a {
   color: goldenrod;
@@ -127,15 +146,15 @@
   color: #fff;
 }
 .icon-mail::before {
-  content: '\2709';
+  content: "\2709";
   margin-right: 6px;
 }
 .icon-phone::before {
-  content: '\260E';
+  content: "\260E";
   margin-right: 6px;
 }
 .icon-ig::before {
-  content: '\1F4F7';
+  content: "\1F4F7";
   margin-right: 6px;
 }
 @media (max-width: 900px) {

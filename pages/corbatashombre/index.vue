@@ -1,6 +1,6 @@
 <script setup>
 import ProductList from '~/components/ProductList.vue'
-import { items } from '~/public/corbatas/data.js'
+import { items } from '~/public/corbatas/temporada1/data.js'
 import { ref } from 'vue'
 
 const primaveraVerano = [...items].reverse(); // Orden invertido
