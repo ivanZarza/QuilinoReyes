@@ -1,11 +1,11 @@
 <script setup>
 import ProductList from '~/components/ProductList.vue'
-import { items } from '~/public/corbatas/deUnSueñoUnaRealidad/data.js'
+import { items3 } from '~/public/moda mujer/data.js'
 </script>
 <template>
   <div class="moda-page">
     <h1 class="corbatas-title">Moda Mujer</h1>
-    <ProductList :items="items" />
+    <ProductList :items="items3" />
   </div>
 </template>
 
