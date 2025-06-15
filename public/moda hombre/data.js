@@ -2,7 +2,7 @@ export const items4 = [
   {
     id: 27,
     nombre: "nombre1",
-    descripcion: "",
+    descripcion: "Chaleco cruzado con tela Tapiz estampada con flores, forrado en raso color crema. Quilino (Abril 2025)",
     fotos: [
       "../modaHombre/nombre1a.jpeg",
       "../modaHombre/nombre1b.jpeg"
