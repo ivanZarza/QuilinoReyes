@@ -1,6 +1,6 @@
 <script setup>
 import ProductList from '~/components/ProductList.vue'
-import { items } from '~/public/corbatas/temporada1/data.js'
+import { items } from '~/public/corbatas/deUnSueñoUnaRealidad/data.js'
 </script>
 <template>
   <div class="moda-page">
