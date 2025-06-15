@@ -1,0 +1,1 @@
+import{P as a,i as s}from"./ZLLY-ET5.js";import{_ as o,c as t,a as r,b as c,j as m,o as d}from"./DL308lSq.js";const _={class:"moda-page"},i={__name:"modahombre",setup(n){return(p,e)=>(d(),t("div",_,[e[0]||(e[0]=r("h1",{class:"corbatas-title"},"Moda Hombre",-1)),c(a,{items:m(s)},null,8,["items"])]))}},b=o(i,[["__scopeId","data-v-d5cab728"]]);export{b as default};
