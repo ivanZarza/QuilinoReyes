@@ -37,7 +37,7 @@ const temporadaSeleccionada = ref(temporadas[0])
 .corbatas-title {
   color: goldenrod;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 3rem;
   margin: 2rem 0 1.5rem 0;
   letter-spacing: 2px;
   font-family: 'Playfair Display', serif;

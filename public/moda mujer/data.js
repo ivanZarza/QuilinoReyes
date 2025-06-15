@@ -24,7 +24,8 @@ export const items3 = [
     descripcion: "",
     fotos: [
       "../modaMujer/nombre3a.jpeg",
-      "../modaMujer/nombre3b.jpeg"
+      "../modaMujer/nombre3b.jpeg",
+      "../modaMujer/nombre3c.jpeg"
     ]
   },
   {
@@ -32,7 +33,9 @@ export const items3 = [
     nombre: "nombre4",
     descripcion: "",
     fotos: [
-      "../modaMujer/nombre4a.jpeg"
+      "../modaMujer/nombre4a.jpeg",
+      "../modaMujer/nombre4b.jpeg",
+      "../modaMujer/nombre4c.jpeg",
     ]
   },
   {
@@ -43,7 +46,7 @@ export const items3 = [
       "../modaMujer/nombre5.jpeg",
     ]
   },
-    {
+  {
     id: 26,
     nombre: "nombre6",
     descripcion: "",

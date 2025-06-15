@@ -71,7 +71,7 @@ function nextImage() {
 }
 .product-image {
   width: 100%;
-  height: 220px;
+  height: 370px;
   background: #111;
   display: flex;
   align-items: center;
@@ -160,7 +160,7 @@ function nextImage() {
 .gallery-main {
   width: 60vw;
   max-width: 500px;
-  max-height: 60vh;
+  max-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
