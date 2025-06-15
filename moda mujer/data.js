@@ -2,7 +2,7 @@ export const items3 = [
   {
     id: 21,
     nombre: "nombre1",
-    descripcion: "",
+    descripcion: "Conjunto de dos piezas, chaleco blanco tipo torera con caireles y pasamanería negra y falda de tubo negra con fleco negro. María. (Septiembre 2024)",
     fotos: [
       "../modaMujer/nombre1a.jpeg",
       "../modaMujer/nombre1b.jpeg"
@@ -11,7 +11,7 @@ export const items3 = [
   {
     id: 22,
     nombre: "nombre2",
-    descripcion: "",
+    descripcion: "Top con frunce en la cintura y espalda abierta en tela blanca  de mantoncillo bordado en negro y fleco negro de 50 cm. Gracia (Mayo)",
     fotos: [
       "../modaMujer/nombre2a.jpeg",
       "../modaMujer/nombre2b.jpeg",
@@ -21,7 +21,7 @@ export const items3 = [
   {
     id: 23,
     nombre: "nombre3",
-    descripcion: "",
+    descripcion: "Mono negro de licra y seda con fondo blanco y topos negros con forma plisada y asimétrica. María José.  (Septiembre 2024) ",
     fotos: [
       "../modaMujer/nombre3a.jpeg",
       "../modaMujer/nombre3b.jpeg",
@@ -41,7 +41,7 @@ export const items3 = [
   {
     id: 25,
     nombre: "nombre5",
-    descripcion: "",
+    descripcion: "Vestido de fleco turquesa que realicé con cariño especial para la feria de Málaga para María Antonella. 3 años(Agosto 2024)",
     fotos: [
       "../modaMujer/nombre5.jpeg",
     ]
@@ -49,7 +49,7 @@ export const items3 = [
   {
     id: 26,
     nombre: "nombre6",
-    descripcion: "",
+    descripcion: "Vestido de terciopelo rojo sangre, con escote plisado y grande lazada en parte trasera simulando cola sobre puesta. India Pozo (Enero 2025)",
     fotos: [
       "../modaMujer/nombre6a.jpeg",
       "../modaMujer/nombre6b.jpeg"
