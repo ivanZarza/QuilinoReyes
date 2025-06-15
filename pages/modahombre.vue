@@ -5,7 +5,7 @@ import { items4 } from '~/public/moda hombre/data.js'
 <template>
   <div class="moda-page">
     <h1 class="corbatas-title">Moda Hombre</h1>
-    <ProductList :items="items4" imgBase="modaHombre/" />
+    <ProductList :items="items4" imgBase="/modaHombre/" />
   </div>
 </template>
 
