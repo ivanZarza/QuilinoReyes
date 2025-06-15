@@ -4,8 +4,8 @@ export const items3 = [
     nombre: "nombre1",
     descripcion: "Conjunto de dos piezas, chaleco blanco tipo torera con caireles y pasamanería negra y falda de tubo negra con fleco negro. María. (Septiembre 2024)",
     fotos: [
-      "../modaMujer/nombre1a.jpeg",
-      "../modaMujer/nombre1b.jpeg"
+      "nombre1a.jpeg",
+      "nombre1b.jpeg"
     ]
   },
   {
@@ -13,9 +13,9 @@ export const items3 = [
     nombre: "nombre2",
     descripcion: "Top con frunce en la cintura y espalda abierta en tela blanca  de mantoncillo bordado en negro y fleco negro de 50 cm. Gracia (Mayo)",
     fotos: [
-      "../modaMujer/nombre2a.jpeg",
-      "../modaMujer/nombre2b.jpeg",
-      "../modaMujer/nombre2c.jpeg"
+      "nombre2a.jpeg",
+      "nombre2b.jpeg",
+      "nombre2c.jpeg"
     ]
   },
   {
@@ -23,9 +23,9 @@ export const items3 = [
     nombre: "nombre3",
     descripcion: "Mono negro de licra y seda con fondo blanco y topos negros con forma plisada y asimétrica. María José.  (Septiembre 2024) ",
     fotos: [
-      "../modaMujer/nombre3a.jpeg",
-      "../modaMujer/nombre3b.jpeg",
-      "../modaMujer/nombre3c.jpeg"
+      "nombre3a.jpeg",
+      "nombre3b.jpeg",
+      "nombre3c.jpeg"
     ]
   },
   {
@@ -33,9 +33,9 @@ export const items3 = [
     nombre: "nombre4",
     descripcion: "",
     fotos: [
-      "../modaMujer/nombre4a.jpeg",
-      "../modaMujer/nombre4b.jpeg",
-      "../modaMujer/nombre4c.jpeg",
+      "nombre4a.jpeg",
+      "nombre4b.jpeg",
+      "nombre4c.jpeg",
     ]
   },
   {
@@ -43,7 +43,7 @@ export const items3 = [
     nombre: "nombre5",
     descripcion: "Vestido de fleco turquesa que realicé con cariño especial para la feria de Málaga para María Antonella. 3 años(Agosto 2024)",
     fotos: [
-      "../modaMujer/nombre5.jpeg",
+      "nombre5.jpeg",
     ]
   },
   {
@@ -51,8 +51,8 @@ export const items3 = [
     nombre: "nombre6",
     descripcion: "Vestido de terciopelo rojo sangre, con escote plisado y grande lazada en parte trasera simulando cola sobre puesta. India Pozo (Enero 2025)",
     fotos: [
-      "../modaMujer/nombre6a.jpeg",
-      "../modaMujer/nombre6b.jpeg"
+      "nombre6a.jpeg",
+      "nombre6b.jpeg"
     ]
   }
 ];
