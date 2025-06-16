@@ -23,5 +23,5 @@ import { items3 } from '~/public/moda mujer/data.js'
   margin: 2rem 0 1.5rem 0;
   letter-spacing: 2px;
   font-family: 'Playfair Display', serif;
-}
+} 
 </style>
