@@ -165,8 +165,8 @@
     align-items: center;
   }
   .personal {
-    width: 120px;
-    height: 120px;
+    width: 60%;
+    height: auto;
   }
   .texto {
     font-size: 1rem;

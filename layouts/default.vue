@@ -245,5 +245,10 @@ body {
   nav a:last-child {
     border-bottom: none;
   }
+
+  .logo-container img {
+    height: 80px;
+    width: auto;
+  }
 }
 </style>
