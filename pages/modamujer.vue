@@ -5,7 +5,7 @@ import { items3 } from '~/public/moda mujer/data.js'
 <template>
   <div class="moda-page">
     <h1 class="corbatas-title">Moda Mujer</h1>
-    <ProductList :items="items3" imgBase="/modaMujer/" />
+    <ProductList :items="items3" imgBase="modaMujer/" />
   </div>
 </template>
 
