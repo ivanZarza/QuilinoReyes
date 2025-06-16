@@ -91,6 +91,14 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: flex-start;
 }
+.logo-container img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+  border: none;
+}
 .logo-header {
   height: 100%;
 
