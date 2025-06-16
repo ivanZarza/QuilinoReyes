@@ -93,7 +93,7 @@ onBeforeUnmount(() => {
 }
 .logo-header {
   height: 100%;
-  max-height: 110px;
+
   width: auto;
   object-fit: contain;
   display: block;
@@ -190,6 +190,10 @@ body {
   overflow-x: hidden !important;
 }
 @media (max-width: 900px) {
+    .main-bg {
+    background-size: 350px auto;
+  }
+
   .header-custom {
     flex-wrap: wrap;
     height: auto;
