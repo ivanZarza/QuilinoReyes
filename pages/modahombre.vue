@@ -4,7 +4,9 @@ import { items4 } from '~/public/moda hombre/data.js'
 </script>
 <template>
   <div class="moda-page">
-    <h1 class="corbatas-title">Moda Hombre</h1>
+    <div class="corbatas-title-wrapper">
+      <h1 class="corbatas-title">Moda Hombre</h1>
+    </div>
     <ProductList :items="items4" imgBase="modaHombre/" />
   </div>
 </template>
@@ -16,12 +18,25 @@ import { items4 } from '~/public/moda hombre/data.js'
   flex-direction: column;
   justify-content: flex-start;
 }
+.corbatas-title-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
 .corbatas-title {
   color: goldenrod;
   text-align: center;
   font-size: 2.2rem;
-  margin: 2rem 0 1.5rem 0;
   letter-spacing: 2px;
   font-family: 'Playfair Display', serif;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 18px;
+  padding: 1rem 2.5rem;
+  display: inline-block;
+  box-sizing: border-box;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.25);
 }
 </style>

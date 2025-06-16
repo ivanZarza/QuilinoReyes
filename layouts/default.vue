@@ -29,7 +29,7 @@ onBeforeUnmount(() => {
   <div class="main-bg">
     <header class="header-custom">
       <div class="logo-container">
-        <img src="/logo-bg.jpg" alt="Logo Quilino Reyes" class="logo-header" />
+        <img src="/public/logo-bg.png" alt="Logo Quilino Reyes" class="logo-header" />
       </div>
       <button class="menu-btn" @click="toggleMenu" aria-label="Abrir menú">
         <span class="menu-icon"></span>
@@ -55,8 +55,9 @@ onBeforeUnmount(() => {
   min-height: 100vh;
   width: 100%;
   max-width: 100vw;
-  background: #181818 url('/logo-bg.jpg') repeat center center fixed;
-  background-size: 450px auto;
+  background: #000000 url('/logo-bg.png') repeat center center fixed;
+  background-repeat:space ;
+  background-size: 750px auto;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

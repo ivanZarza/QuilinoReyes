@@ -1,12 +1,11 @@
 <script setup>
-// No se requiere lógica JS para la presentación
 </script>
 <template>
   <div>
     <div class="presentacion">
       <div class="personal-container">
         <img
-          src="/personal.jpg"
+          src="/personal.jpeg"
           class="personal"
           alt="Imagen de presentación"
         />
@@ -114,6 +113,7 @@
   border-radius: 2px;
   display: block;
 }
+
 .footer {
   padding: 30px 0 60px 0;
   display: flex;

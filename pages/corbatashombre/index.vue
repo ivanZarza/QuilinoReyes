@@ -9,13 +9,14 @@ const otonoInvierno = [...items2]
 
 const temporadas = [
   { nombre: 'De un sueño una realidad', items: primaveraVerano, imgBase: 'de un sueño una realidad/' },
-  { nombre: 'Sastiplen Tali', items: otonoInvierno, imgBase: 'sastipenTali/' }
+  { nombre: 'Sastiplen Tali', items: otonoInvierno, imgBase: 'sastipen tali/' }
 ]
 const temporadaSeleccionada = ref(temporadas[0])
 const imgBase = computed(() => temporadaSeleccionada.value.imgBase)
 </script>
 <template>
   <div>
+    <div class="corbatas-blur-bg">
     <h1 class="corbatas-title">Corbatas Hombre</h1>
     <div class="temporadas-tabs">
       <button
@@ -27,6 +28,7 @@ const imgBase = computed(() => temporadaSeleccionada.value.imgBase)
         {{ temp.nombre }}
       </button>
     </div>
+    </div>
     <div class="product-list-wrapper">
       <ProductList :items="temporadaSeleccionada.items" :imgBase="imgBase" />
     </div>
@@ -34,6 +36,16 @@ const imgBase = computed(() => temporadaSeleccionada.value.imgBase)
 </template>
 
 <style scoped>
+.corbatas-blur-bg {
+  backdrop-filter: blur(8px);
+  background: rgba(24, 24, 24, 0.45);
+  border-radius: 18px;
+
+  margin: auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+
+}
 .corbatas-title {
   color: goldenrod;
   text-align: center;

@@ -4,7 +4,7 @@
       <img :src="`${imgBase}${fotos[0]}`" :alt="nombre" />
     </div>
     <div class="product-info">
-      <h2>{{ nombre }}</h2>
+<!--       <h2>{{ nombre }}</h2> -->
       <p class="desc">{{ descripcion }}</p>
       <p class="precio">{{ precio }}</p>
     </div>
@@ -63,6 +63,8 @@ function nextImage() {
 <style scoped>
 .product-card {
   width: 320px;
+  min-height: 540px;
+  max-height: 540px;
   background: rgba(26,26,26,0.98);
   border: 2px solid goldenrod;
   border-radius: 18px;

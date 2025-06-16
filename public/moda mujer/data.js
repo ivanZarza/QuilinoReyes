@@ -6,7 +6,8 @@ export const items3 = [
     fotos: [
       "nombre1a.jpeg",
       "nombre1b.jpeg"
-    ]
+    ],
+    precio: "Consultar precio"
   },
   {
     id: 22,
@@ -16,7 +17,8 @@ export const items3 = [
       "nombre2a.jpeg",
       "nombre2b.jpeg",
       "nombre2c.jpeg"
-    ]
+    ],
+    precio: "Consultar precio"
   },
   {
     id: 23,
@@ -26,17 +28,19 @@ export const items3 = [
       "nombre3a.jpeg",
       "nombre3b.jpeg",
       "nombre3c.jpeg"
-    ]
+    ],
+    precio: "Consultar precio"
   },
   {
     id: 24,
     nombre: "nombre4",
-    descripcion: "",
+    descripcion: "Camisa para baile, tejido estampado con flores y lunares.Lola (Septiembre 2024)",
     fotos: [
       "nombre4a.jpeg",
       "nombre4b.jpeg",
       "nombre4c.jpeg",
-    ]
+    ],
+    precio: "Consultar precio"
   },
   {
     id: 25,
@@ -44,7 +48,8 @@ export const items3 = [
     descripcion: "Vestido de fleco turquesa que realicé con cariño especial para la feria de Málaga para María Antonella. 3 años(Agosto 2024)",
     fotos: [
       "nombre5.jpeg",
-    ]
+    ],
+    precio: "Consultar precio"
   },
   {
     id: 26,
@@ -53,6 +58,7 @@ export const items3 = [
     fotos: [
       "nombre6a.jpeg",
       "nombre6b.jpeg"
-    ]
+    ],
+    precio: "Consultar precio"
   }
 ];
