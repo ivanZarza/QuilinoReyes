@@ -6,6 +6,7 @@ export const items4 = [
     fotos: [
       "nombre1a.jpeg",
       "nombre1b.jpeg"
-    ]
+    ],
+    precio: "Consultar precio"
   }
 ]
