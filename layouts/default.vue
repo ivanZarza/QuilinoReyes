@@ -83,7 +83,6 @@ onBeforeUnmount(() => {
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 0 1rem;
 }
 .logo-container {
   height: 100%;
@@ -96,7 +95,6 @@ onBeforeUnmount(() => {
   width: auto;
   object-fit: contain;
   display: block;
-  border-radius: 10px;
   border: none;
 }
 .logo-header {
@@ -204,12 +202,13 @@ body {
 
   .header-custom {
     flex-wrap: wrap;
-    height: auto;
+    height: 106px;
     min-height: unset;
-    padding: 0.5rem 0.5rem;
+
   }
   .menu-btn {
     display: block;
+    margin-right: 20px;
   }
   nav {
     position: absolute;
@@ -225,7 +224,7 @@ body {
     padding: 0.5rem 0;
     display: none;
     border-bottom: 4px solid goldenrod;
-    z-index: 150;
+    z-index: 1500;
   }
   nav.open {
     display: flex;
@@ -247,7 +246,7 @@ body {
   }
 
   .logo-container img {
-    height: 80px;
+    height: 100%;
     width: auto;
   }
 }
