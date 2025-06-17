@@ -39,6 +39,7 @@ onBeforeUnmount(() => {
         <NuxtLink to="/modahombre" @click="closeMenu">Moda Hombre</NuxtLink>
         <NuxtLink to="/modamujer" @click="closeMenu">Moda Mujer</NuxtLink>
         <NuxtLink to="/corbatashombre" @click="closeMenu">Corbatas Hombre</NuxtLink>
+        <NuxtLink to="/cofradias" @click="closeMenu">Cofradias</NuxtLink>
       </nav>
     </header>
     <main class="main-content">
