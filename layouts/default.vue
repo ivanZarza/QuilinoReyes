@@ -71,7 +71,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
 }
 .header-custom {
-  background: #181818;
+  background: #000000;
   color: goldenrod;
   display: flex;
   flex-direction: row;
